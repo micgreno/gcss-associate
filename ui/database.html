@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Credit · Database utility</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/database.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <a class="brand" id="brand-link" href="/">NORTHSTAR CREDIT</a>
+      <div class="header-actions">
+        <a id="return-link" class="utility-link" href="/">← Back to borrower portfolio</a>
+        <a id="database-link" class="utility-link" href="/database">Database utility</a>
+        <form id="role-form" class="role-switch">
+          <label for="as-user">Viewing as</label>
+          <select id="as-user" name="as_user"></select>
+          <button type="submit">Switch view</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main id="database-content" aria-live="polite"><p class="muted">Loading the database utility…</p></main>
+  <footer>Training environment · Synthetic data only · Read-only queries against this app</footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Credit · Borrower exposure</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <a class="brand" id="brand-link" href="/">NORTHSTAR CREDIT</a>
+      <div class="header-actions">
+        <a id="database-link" class="utility-link" href="/database">Database utility</a>
+        <form id="role-form" class="role-switch">
+          <label for="as-user">Viewing as</label>
+          <select id="as-user" name="as_user"></select>
+          <button type="submit">Switch view</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main id="app-content" aria-live="polite"><section class="loading-shell" role="status"><span class="sr-only">Loading the borrower portfolio…</span><div class="skeleton skeleton-title"></div><div class="skeleton skeleton-copy"></div><div class="skeleton-grid"><div class="skeleton skeleton-tile"></div><div class="skeleton skeleton-tile"></div><div class="skeleton skeleton-tile"></div></div><div class="skeleton skeleton-panel"></div></section></main>
+  <footer>Training environment · Synthetic data only · Role switch is for exercise simulation</footer>
+</body>
+</html>
